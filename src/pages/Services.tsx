@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { ArrowRight, Target, Users, Heart, MessageCircle, Check } from 'lucide-react';
+import { ArrowRight, Target, Users, Heart, MessageCircle, Handshake, Check } from 'lucide-react';
 
 const services = [
   {
@@ -60,6 +60,21 @@ const services = [
       'Narrative and messaging strategy',
       'Media relations support',
       'Reputation management',
+    ],
+  },
+  {
+    id: 'community-partnerships',
+    icon: Handshake,
+    title: 'Community & Government Partnerships',
+    tagline: 'Equity, Collaboration, Impact',
+    description:
+      'We facilitate meaningful partnerships between communities, governments, and organizations to create equitable solutions. Our approach bridges diverse stakeholders, ensuring collaborative strategies that generate lasting social impact and strengthen civic engagement.',
+    offerings: [
+      'Community-government partnership facilitation',
+      'Stakeholder engagement strategy',
+      'Equity-centered collaboration frameworks',
+      'Civic engagement initiatives',
+      'Cross-sector partnership development',
     ],
   },
 ];

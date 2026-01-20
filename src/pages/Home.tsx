@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { ArrowRight, Users, Target, Heart, MessageCircle } from 'lucide-react';
+import { ArrowRight, Users, Target, Heart, MessageCircle, Handshake } from 'lucide-react';
 
 const services = [
   {
@@ -21,6 +21,11 @@ const services = [
     icon: MessageCircle,
     title: 'Branding, Communications & Crisis Management',
     description: 'Shape narratives that inspire trust and protect reputations.',
+  },
+  {
+    icon: Handshake,
+    title: 'Community & Government Partnerships',
+    description: 'Bridge diverse stakeholders to create equitable, lasting impact.',
   },
 ];
 
@@ -51,13 +56,10 @@ export default function Home() {
               lasting impact.
             </p>
 
-            {/* Quote */}
-            <blockquote className="border-l-4 border-gold pl-6 py-2 mb-10">
-              <p className="font-display text-xl md:text-2xl italic text-forest-600">
-                "When we nurture what's possible, we create space for growth that transforms people
-                and communities."
-              </p>
-            </blockquote>
+            {/* Tagline */}
+            <p className="font-display text-xl md:text-2xl text-forest-600 leading-relaxed mb-10">
+              Cultivating ideas, guiding growth, and sparking brilliance that endures.
+            </p>
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
@@ -173,7 +175,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
             {services.map((service) => (
               <div
                 key={service.title}

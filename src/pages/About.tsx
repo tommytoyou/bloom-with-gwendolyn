@@ -182,6 +182,55 @@ export default function About() {
         </div>
       </section>
 
+      {/* Positioning Statement */}
+      <section className="section-padding bg-sage-50">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <div className="gold-line mx-auto mb-6" />
+            <h2 className="font-display text-3xl md:text-4xl font-semibold text-forest mb-8 text-center">
+              Our Position
+            </h2>
+
+            <div className="space-y-6">
+              <p className="font-body text-lg text-forest-700 leading-relaxed">
+                Bloom with Gwendolyn Consulting was founded on the belief that authenticity, strategy,
+                and compassion can drive real change. We partner with individuals, organizations, and
+                communities to cultivate growth that lasts.
+              </p>
+
+              <p className="font-body text-lg text-forest-700 leading-relaxed">
+                We stand as a women-led, Black-owned practice committed to equity and impact that
+                endures—one person, one organization, and one community at a time.
+              </p>
+
+              <p className="font-body text-lg text-forest-700 leading-relaxed">
+                At Bloom, we believe transformation happens when we grow together, through authentic
+                guidance, solution-driven strategies, and visionary collaboration. We are rooted in
+                equity and resilience. Bloom is not just about strategies, but about cultivating
+                tailored pathways, facilitating collaboration, and empowering leaders and communities
+                to drive transformational change that achieves meaningful impact that lasts.
+              </p>
+
+              <p className="font-body text-lg text-forest-700 leading-relaxed">
+                Our tailored approach is rooted in listening, clarity, and authentic engagement. We
+                cultivate solutions that facilitate growth, transformation, and impact. We meet you
+                where you are and help you grow with purpose.
+              </p>
+
+              {/* Signature Statement */}
+              <div className="text-center pt-8">
+                <p className="font-display text-xl md:text-2xl font-semibold text-forest mb-4">
+                  We help ideas take root.
+                </p>
+                <p className="font-display text-lg md:text-xl italic text-gold">
+                  Cultivating ideas, guiding growth, and sparking brilliance that endures.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Values */}
       <section className="section-padding bg-white">
         <div className="container-custom">

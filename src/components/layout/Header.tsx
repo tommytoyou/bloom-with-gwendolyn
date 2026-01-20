@@ -4,10 +4,10 @@ import { Menu, X } from 'lucide-react';
 import Logo from '../ui/Logo';
 
 const navLinks = [
-  { name: 'Home', path: '/' },
+  { name: 'Our Story', path: '/' },
   { name: 'About', path: '/about' },
-  { name: 'Services', path: '/services' },
-  { name: 'Contact', path: '/contact' },
+  { name: 'Our Craft', path: '/services' },
+  { name: 'Connect', path: '/contact' },
 ];
 
 export default function Header() {
